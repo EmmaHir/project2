@@ -1,0 +1,302 @@
+body {
+    background-color: rgb(180, 205, 220);
+}
+
+nav {
+    font-family: "Metamorphous", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: "Metamorphous", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: rgb(7, 60, 52);
+    margin-top: 220px;
+    margin-bottom: 100px;
+    margin-left: -100px;
+}
+
+h2,
+h3,
+h4 {
+    font-family: "Metamorphous", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    color: rgb(48, 38, 21);
+    font-size: 70px;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(54, 105, 96);
+    font-size: 30px;
+    text-align: center;
+}
+
+h4 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    text-align: center;
+}
+
+.para1 {
+    font-family: "Metamorphous", serif;
+    font-weight: 800;
+    font-size: 377%;
+    font-style: normal;
+    color: rgb(7, 60, 52);
+    margin-left: 19%;
+}
+
+.little {
+    color: rgb(72, 76, 6);
+}
+
+.hover{
+    display: inline-block;
+    transition: transform .3s ease;
+}
+
+.hover:hover{
+    transform: translateY(-5px);
+}
+
+.para2,
+.para3,
+.para4 {
+    color: rgb(180, 205, 220);
+    font-family: "Moderustic", sans-serif;
+    font-optical-sizing: auto;
+    text-align: center;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-top: 60px;
+}
+
+h3,
+h4,
+p {
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(7, 60, 5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li a {
+    color: rgb(155, 161, 41);
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+    background-color: rgb(48, 38, 21);
+}
+
+ul li a.active {
+    background-color: #04AA6D;
+}
+
+.d1 {
+    color: rgb(155, 161, 41);
+    text-align: center;
+    /* display: inline-block; */
+    transition: transform .3s ease;
+}
+
+.d2 {
+    color: rgb(180, 205, 220);
+    text-align: center;
+}
+
+.boxes{
+    position: relative;
+    z-index: -1;
+    top: -355px;
+}
+.outerbox{
+    width: 510px;
+    height: 350px;
+    background-color: rgba(7, 60, 52, .5);
+    position:absolute;
+    top: 20%;
+    left: 33%;
+}
+.middlebox{
+    width: 375px;
+    height: 215px;
+    background-color: rgba(7, 60, 52, .5);
+    position:absolute;
+    top: 67px;
+    left: 37.5%;
+}
+.insidebox{
+    width: 250px;
+    height: 85px;
+    background-color: rgba(7, 60, 52, .5);
+    position:absolute;
+    top: 130px;
+    left: 41.5%;
+}
+
+
+.aboutpara {
+    font-family: "Moderustic", sans-serif;
+    font-optical-sizing: auto;
+    padding-bottom: 5%;
+}
+
+#display {
+    font-family: "Metamorphous", serif;
+    font-weight: 800;
+    font-size: 300%;
+    font-style: normal;
+    position: relative;
+}
+
+.bc {
+    font-family: "Moderustic", sans-serif;
+    font-optical-sizing: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: rgb(48, 38, 21);
+}
+
+footer {
+    font-family: "Moderustic", sans-serif;
+    font-optical-sizing: auto;
+    text-align: center;
+    color: rgb(48, 38, 21);
+}
+
+#about {
+    background-color: rgb(155, 161, 41);
+}
+
+#events {
+    background-color: rgb(155, 161, 41);
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    padding-bottom: 45px;
+    background-color: rgb(155, 161, 41);
+}
+.box {
+    padding: 1rem;
+    height: 180px;
+    background-color: rgb(155, 161, 41);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.green {
+    background-color: rgb(72, 76, 6);
+
+}
+.brown {
+    background-color: rgb(72,76, 6);
+}
+.yellow {
+    background-color: rgb(72, 76, 6);
+}
+image { 
+    width: 200px;
+}
+
+.hover2{
+    display: inline-block;
+    transition: transform .3s ease;
+    position: relative;
+    left: 25%;
+}
+.hover2:hover{
+    transform: translateY(-10px);
+}
+
+.d1:hover{
+    transform: translateY(-10px);
+}
+.d2:hover{
+    transform: translateY(-10px);
+}
+
+.aboutpara{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+img {
+    width: 800px;
+    height: 750px;
+    margin-left: 28%;
+}
+
+.about{
+    padding-top: 20px;
+}
+
+.event {
+    padding-top: 45px;
+}
+
+.footer {
+    padding-top: 20px;
+}
+.img {
+    padding-top: 20px;
+}
+
+.two {
+    margin-right: 100px;
+    margin-left: 500px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.one {
+    margin-right: 500px;
+    padding-top: 20px;
+}
+.three {
+    margin-right: 500px;
+    padding-bottom: 80px;
+}
+.bodycopy {
+    padding-top: 100px;
+}
+
+.alpha {
+    padding-bottom: 85px;
+}
+
+.display {
+    padding-top: 95px;
+    padding-bottom: 75px;
+}
+
